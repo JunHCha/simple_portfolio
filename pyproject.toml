@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "simple_portfolio"
+version = "0.1.0"
+description = "alphaprime backend developer training project"
+authors = ["JunHCha <quffl9612@naver.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.1"
+Django = "^4.0"
+postgres = "^4.0"
+drf-spectacular = "^0.21.1"
+djangorestframework = "^3.13.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
