@@ -5,7 +5,7 @@ description = "alphaprime backend developer training project"
 authors = ["JunHCha <quffl9612@naver.com>"]
 
 [tool.poetry.dependencies]
-python = "3.10.1"
+python = "3.10.5"
 Django = "^4.0"
 postgres = "^4.0"
 drf-spectacular = "^0.21.1"
