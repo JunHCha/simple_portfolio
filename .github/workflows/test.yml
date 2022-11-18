@@ -20,4 +20,4 @@ jobs:
           python-version: "3.10.5"
 
       - name: Test with pytest
-        run: docker run --rm -it $(docker build -q .) pytest
+        run: docker run --rm $(docker build -q .) pytest
